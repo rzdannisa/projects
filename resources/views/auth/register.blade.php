@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> f6441ef608d99bf36fcdb3e575485e9e351235a0
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -70,7 +74,11 @@
 
   </body>
 </html>
+<<<<<<< HEAD
 
+=======
+=======
+>>>>>>> f6441ef608d99bf36fcdb3e575485e9e351235a0
 @extends('app')
 
 @section('content')
@@ -136,4 +144,8 @@
 	</div>
 </div>
 @endsection
+<<<<<<< HEAD
 
+=======
+>>>>>>> ab3433a797a38b9c9e65d975cd0f5a1452d8131e
+>>>>>>> f6441ef608d99bf36fcdb3e575485e9e351235a0
