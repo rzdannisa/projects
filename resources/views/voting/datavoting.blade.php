@@ -2,6 +2,7 @@
 
 @section('content')
 
+<<<<<<< HEAD
 <section id="main-content">
           <section class="wrapper">
       <div class="row">
@@ -14,6 +15,8 @@
           </ol>
         </div>
       </div>
+=======
+>>>>>>> 9e9950285b4af35f34db4324be6ce67f25e4a9c2
 
               <!-- Form validations -->              
               <div class="row">
@@ -24,8 +27,12 @@
                           </header>
                           <div class="panel-body">
                               <div class="form">
+<<<<<<< HEAD
                                   <form  method="POST" action="{{ url('/postdatavoting') }}"class="form-validate form-horizontal" id="feedback_form" >
                                       <input type="hidden" name="_token" value="{{ csrf_token() }}">
+=======
+                                  <form class="form-validate form-horizontal" id="feedback_form" method="get" action="">
+>>>>>>> 9e9950285b4af35f34db4324be6ce67f25e4a9c2
                                       <div class="form-group ">
                                           <label for="cname" class="control-label col-lg-2">Nama Instansi<span class="required">*</span></label>
                                           <div class="col-lg-10">
@@ -44,6 +51,7 @@
                                               <textarea class="form-control " id="ccomment" name="tujuan" required></textarea>
                                           </div>
                                       </div>
+<<<<<<< HEAD
                                       <div class="form-group ">
                                           <label for="ccomment" class="control-label col-lg-2">Date Range Voting</label>
                                           <div class="col-lg-10">
@@ -58,6 +66,13 @@
                                       <div class="form-group">
                                           <div class="col-lg-offset-2 col-lg-10">
                                               <button class="btn btn-primary" type="submit">Save</button>\
+=======
+                                      
+                                      <div class="form-group">
+                                          <div class="col-lg-offset-2 col-lg-10">
+                                              <button class="btn btn-primary" type="submit">Save</button>
+                                              <button class="btn btn-default" type="button">Cancel</button>
+>>>>>>> 9e9950285b4af35f34db4324be6ce67f25e4a9c2
                                           </div>
                                       </div>
                                   </form>
