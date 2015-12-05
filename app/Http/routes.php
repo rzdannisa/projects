@@ -15,7 +15,32 @@ Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');
 
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
+Route::get('datavoting', 'VotingController@datavoting');
+
+Route::post('postdatavoting', 'VotingController@create');
+
+Route::get('datakandidat', 'KandidatController@datakandidat');
+
+Route::post('postdatakandidat', 'KandidatController@create');
+
+Route::get('datapeserta', 'PesertaController@datapeserta');
+
+Route::post('postdatapeserta', 'PesertaController@create');
+
+Route::get('/images/{filename}',
+	function ($filename)
+{
+	$path = storage_path() . '/' . $filename;
+
+	$file = File::get($path);
+	$type = File::mimeType($path);
+
+	$response = Response::make($file, 200);
+	$response->header("Content-Type", $type);
+
+	return $response;
+});
+// Route::controllers([
+// 	'auth' => 'Auth\AuthController',
+// 	'password' => 'Auth\PasswordController',
+// ]);
