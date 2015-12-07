@@ -33,6 +33,13 @@
                                           </div>
                                       </div>
                                       <div class="form-group ">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c9aa5721ce89b8073da2a90766ef77598778d7ce
+>>>>>>> 32641a6ebc35b9eebdf008748274bcbca3e275ba
                                       <label for="cname" class="control-label col-lg-2">Judul Voting</label>
                                       <div class="col-lg-10">
                                           <select class="form-control m-bot15" name="id_voting">
@@ -43,6 +50,14 @@
                                       </div>
                                       </div>  
                                       <div class="form-group ">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
+>>>>>>> c9aa5721ce89b8073da2a90766ef77598778d7ce
+>>>>>>> 32641a6ebc35b9eebdf008748274bcbca3e275ba
                                           <label for="cname" class="control-label col-lg-2">Foto Kandidat<span class="required">*</span></label>
                                           <div class="col-lg-10">
                                               <input  id="subject" style="height:35px;" name="foto"  type="file" required />
@@ -57,7 +72,19 @@
                                       
                                       <div class="form-group">
                                           <div class="col-lg-offset-2 col-lg-10">
+<<<<<<< HEAD
                                               <button class="btn btn-primary" type="submit">Save</button>
+=======
+<<<<<<< HEAD
+                                              <button class="btn btn-primary" type="submit">Save</button>
+=======
+<<<<<<< HEAD
+                                              <button class="btn btn-primary" type="submit">Save</button>
+=======
+                                              <button class="btn btn-primary" type="submit">Save</button>\
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
+>>>>>>> c9aa5721ce89b8073da2a90766ef77598778d7ce
+>>>>>>> 32641a6ebc35b9eebdf008748274bcbca3e275ba
                                           </div>
                                       </div>
                                   </form>

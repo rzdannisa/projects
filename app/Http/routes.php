@@ -27,6 +27,13 @@ Route::get('datapeserta', 'PesertaController@datapeserta');
 
 Route::post('postdatapeserta', 'PesertaController@create');
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c9aa5721ce89b8073da2a90766ef77598778d7ce
+>>>>>>> 32641a6ebc35b9eebdf008748274bcbca3e275ba
 
 Route::get('login', 'Auth\AuthController@getLogin');
 Route::post('login', 'Auth\AuthController@postLogin');
@@ -34,6 +41,14 @@ Route::get('register', 'Auth\AuthController@getRegister');
 Route::post('register', 'Auth\AuthController@postRegister');
 Route::get('logout', 'Auth\AuthController@getLogout');
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
+>>>>>>> c9aa5721ce89b8073da2a90766ef77598778d7ce
+>>>>>>> 32641a6ebc35b9eebdf008748274bcbca3e275ba
 Route::get('/images/{filename}',
 	function ($filename)
 {

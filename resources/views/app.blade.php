@@ -8,6 +8,16 @@
     <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
     <link rel="shortcut icon" href="img/favicon.png">
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
+>>>>>>> c9aa5721ce89b8073da2a90766ef77598778d7ce
+>>>>>>> 32641a6ebc35b9eebdf008748274bcbca3e275ba
     <title>Voting</title>
 
     <!-- Bootstrap CSS -->    
@@ -29,6 +39,30 @@
     <!-- Custom styles -->
     <link href="{{ url('css/style.css') }}" rel="stylesheet">
     <link href="{{ url('css/style-responsive.css') }}" rel="stylesheet" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    <title>Blank | Creative - Bootstrap 3 Responsive Admin Template</title>
+
+    <!-- Bootstrap CSS -->    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- bootstrap theme -->
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <!--external css-->
+    <!-- font icon -->
+    <link href="css/elegant-icons-style.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Custom styles -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet" />
+>>>>>>> 9e9950285b4af35f34db4324be6ce67f25e4a9c2
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
+>>>>>>> c9aa5721ce89b8073da2a90766ef77598778d7ce
+>>>>>>> 32641a6ebc35b9eebdf008748274bcbca3e275ba
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 -->
     <!--[if lt IE 9]>
@@ -49,7 +83,19 @@
             </div>
 
             <!--logo start-->
+<<<<<<< HEAD
             <a href="index.html" class="logo">S - <span class="lite">Voting</span></a>
+=======
+<<<<<<< HEAD
+            <a href="index.html" class="logo">S - <span class="lite">Voting</span></a>
+=======
+<<<<<<< HEAD
+            <a href="index.html" class="logo">S - <span class="lite">Voting</span></a>
+=======
+            <a href="index.html" class="logo">Nice <span class="lite">Admin</span></a>
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
+>>>>>>> c9aa5721ce89b8073da2a90766ef77598778d7ce
+>>>>>>> 32641a6ebc35b9eebdf008748274bcbca3e275ba
             <!--logo end-->
 
             <div class="nav search-row" id="top_menu">
@@ -319,6 +365,16 @@
 				  <li class="sub-menu">
                       <a href="javascript:;" class="">
                           <i class="icon_document_alt"></i>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
+>>>>>>> c9aa5721ce89b8073da2a90766ef77598778d7ce
+>>>>>>> 32641a6ebc35b9eebdf008748274bcbca3e275ba
                           <span>Input Data</span>
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
@@ -326,6 +382,23 @@
                           <li><a class="" href="{{ url('datavoting') }}">Data Voting</a></li>                          
                           <li><a class="" href="{{ url('datakandidat') }}">Data Kandidat</a></li>
                           <li><a class="" href="{{ url('datapeserta') }}">Data Peserta</a></li>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+                          <span>Forms</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+                      <ul class="sub">
+                          <li><a class="" href="form_component.html">Form Elements</a></li>                          
+                          <li><a class="" href="form_validation.html">Form Validation</a></li>
+>>>>>>> 9e9950285b4af35f34db4324be6ce67f25e4a9c2
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
+>>>>>>> c9aa5721ce89b8073da2a90766ef77598778d7ce
+>>>>>>> 32641a6ebc35b9eebdf008748274bcbca3e275ba
                       </ul>
                   </li>       
                   <li class="sub-menu">
@@ -387,7 +460,34 @@
       <!--sidebar end-->
 
       <!--main content start-->
+<<<<<<< HEAD
       
+=======
+<<<<<<< HEAD
+      
+=======
+<<<<<<< HEAD
+      
+=======
+<<<<<<< HEAD
+      
+=======
+      <section id="main-content">
+          <section class="wrapper">
+		  <div class="row">
+				<div class="col-lg-12">
+					<h3 class="page-header"><i class="fa fa fa-bars"></i> Pages</h3>
+					<ol class="breadcrumb">
+						<li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+						<li><i class="fa fa-bars"></i>Pages</li>
+						<li><i class="fa fa-square-o"></i>Pages</li>
+					</ol>
+				</div>
+			</div>
+>>>>>>> 9e9950285b4af35f34db4324be6ce67f25e4a9c2
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
+>>>>>>> c9aa5721ce89b8073da2a90766ef77598778d7ce
+>>>>>>> 32641a6ebc35b9eebdf008748274bcbca3e275ba
               <!-- page start-->
               @yield('content')
               Template by NiceAdmin edited by SuccessTeam
@@ -398,6 +498,16 @@
   </section>
   <!-- container section end -->
     <!-- javascripts -->
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
+>>>>>>> c9aa5721ce89b8073da2a90766ef77598778d7ce
+>>>>>>> 32641a6ebc35b9eebdf008748274bcbca3e275ba
     <script src="{{ url('js/jquery.js') }}"></script>
     <script src="{{ url('js/bootstrap.min.js') }}"></script>
     <!-- nice scroll -->
@@ -409,6 +519,23 @@
     <script src="{{ url('dp/js/metro.js') }}"></script>
     <script src="{{ url('dp/js/docs.js') }}"></script>
     <script src="{{ url('dp/js/prettify/run_prettify.js') }}"></script>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- nice scroll -->
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/jquery.nicescroll.js" type="text/javascript"></script><!--custome script for all page-->
+    <script src="js/scripts.js"></script>
+>>>>>>> 9e9950285b4af35f34db4324be6ce67f25e4a9c2
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
+>>>>>>> c9aa5721ce89b8073da2a90766ef77598778d7ce
+>>>>>>> 32641a6ebc35b9eebdf008748274bcbca3e275ba
 
 
   </body>

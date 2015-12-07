@@ -18,8 +18,22 @@ class KandidatController extends Controller {
 	 */
 	public function datakandidat()
 	{
+<<<<<<< HEAD
 		$voting = \DB::select('select id as id, judul as judul from votings where id_user='.\Auth::user()->id.'');
 		return \View::make('voting.datakandidat')->with('voting', $voting);
+=======
+<<<<<<< HEAD
+		$voting = \DB::select('select id as id, judul as judul from votings where id_user='.\Auth::user()->id.'');
+		return \View::make('voting.datakandidat')->with('voting', $voting);
+=======
+<<<<<<< HEAD
+		$voting = \DB::select('select id as id, judul as judul from votings where id_user='.\Auth::user()->id.'');
+		return \View::make('voting.datakandidat')->with('voting', $voting);
+=======
+		return view('voting.datakandidat');
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
+>>>>>>> c9aa5721ce89b8073da2a90766ef77598778d7ce
+>>>>>>> 32641a6ebc35b9eebdf008748274bcbca3e275ba
 	}
 
 	/**
@@ -30,7 +44,19 @@ class KandidatController extends Controller {
 	public function create()
 	{
 		$post = new Kandidat;
+<<<<<<< HEAD
 		$post->id_voting = Input::get('id_voting');
+=======
+<<<<<<< HEAD
+		$post->id_voting = Input::get('id_voting');
+=======
+<<<<<<< HEAD
+		$post->id_voting = Input::get('id_voting');
+=======
+		$post->id_voting = 1;// \Auth::user()->id; blm disetting karna blm ada user malik yg benerin
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
+>>>>>>> c9aa5721ce89b8073da2a90766ef77598778d7ce
+>>>>>>> 32641a6ebc35b9eebdf008748274bcbca3e275ba
         $post->nama_k = Input::get('nama');
         $post->keterangan = Input::get('keterangan');
 
@@ -47,7 +73,19 @@ class KandidatController extends Controller {
 
         $post->save();
 
+<<<<<<< HEAD
 		return redirect(url('/datapeserta'));
+=======
+<<<<<<< HEAD
+		return redirect(url('/datapeserta'));
+=======
+<<<<<<< HEAD
+		return redirect(url('/datapeserta'));
+=======
+		return redirect(url('/datakandidat'));
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
+>>>>>>> c9aa5721ce89b8073da2a90766ef77598778d7ce
+>>>>>>> 32641a6ebc35b9eebdf008748274bcbca3e275ba
 	}
 
 	/**
