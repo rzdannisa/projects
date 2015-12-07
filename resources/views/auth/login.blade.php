@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +12,11 @@
     <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
     <link rel="shortcut icon" href="img/favicon.png">
 
+<<<<<<< HEAD
     <title>Login Admin S - Voting</title>
+=======
+    <title>Login Page 2 | Creative - Bootstrap 3 Responsive Admin Template</title>
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
 
     <!-- Bootstrap CSS -->    
     <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -63,6 +71,11 @@
 
   </body>
 </html>
+<<<<<<< HEAD
+=======
+=======
+@extends('app')
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
 
 @section('content')
 <div class="container-fluid">
@@ -125,3 +138,4 @@
 	</div>
 </div>
 @endsection
+>>>>>>> ab3433a797a38b9c9e65d975cd0f5a1452d8131e

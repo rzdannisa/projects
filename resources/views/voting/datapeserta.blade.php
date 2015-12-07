@@ -24,7 +24,11 @@
                           </header>
                           <div class="panel-body">
                               <div class="form">
+<<<<<<< HEAD
                                   <form  method="POST" action="{{ url('/postdatapeserta') }}"class="form-validate form-horizontal" id="feedback_form" >
+=======
+                                  <form  method="POST" action="{{ url('/postdatavoting') }}"class="form-validate form-horizontal" id="feedback_form" >
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
                                       <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                       <div class="form-group ">
                                           <label for="cname" class="control-label col-lg-2">Nama Peserta<span class="required">*</span></label>
@@ -33,6 +37,7 @@
                                           </div>
                                       </div>
                                       <div class="form-group ">
+<<<<<<< HEAD
                                       <label for="cname" class="control-label col-lg-2">Judul Voting</label>
                                       <div class="col-lg-10">
                                           <select class="form-control m-bot15" name="id_voting">
@@ -41,16 +46,31 @@
                                               @endforeach
                                           </select>
                                       </div>
+=======
+                                          <select class="form-control m-bot15" name="id_voting">
+                                              @foreach($voting as $voting)
+                                              <option value="{{ $voting->id }}">{{ $voting->judul_voting }}</option>
+                                              @endforeach
+                                          </select>
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
                                       </div>                                      
                                       <div class="form-group ">
                                           <label for="ccomment" class="control-label col-lg-2">Token Voting</label>
                                           <div class="col-lg-10">
+<<<<<<< HEAD
                                               <textarea class="form-control " id="subject" maxlength="7" name="token_voting" required></textarea>
+=======
+                                              <textarea class="form-control " id="subject" maxlength="6" name="token_voting" required></textarea>
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
                                           </div>
                                       </div>
                                       <div class="form-group">
                                           <div class="col-lg-offset-2 col-lg-10">
+<<<<<<< HEAD
                                               <button class="btn btn-primary" type="submit">Save</button>
+=======
+                                              <button class="btn btn-primary" type="submit">Save</button>\
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
                                           </div>
                                       </div>
                                   </form>

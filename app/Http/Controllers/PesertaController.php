@@ -3,9 +3,13 @@
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
+<<<<<<< HEAD
 use App\Peserta;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Database\Eloquent\Model;
+=======
+use Illuminate\Http\Request;
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
 
 class PesertaController extends Controller {
 
@@ -16,7 +20,11 @@ class PesertaController extends Controller {
 	 */
 	public function datapeserta()
 	{
+<<<<<<< HEAD
 		$voting = \DB::select('select id as id, judul as judul from votings where id_user='.\Auth::user()->id.'');
+=======
+		$voting = \DB::select('select id as id, judul as judul_voting from voting where id_user='.\Auth::user()->id.'');
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
 		return \View::make('voting.datapeserta')->with('voting', $voting);
 	}
 

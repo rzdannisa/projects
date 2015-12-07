@@ -39,7 +39,11 @@ class VotingController extends Controller {
 
         $post->save();
 
+<<<<<<< HEAD
 		return redirect(url('/datakandidat'));
+=======
+		return redirect(url('/datavoting'));
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
 	}
 
 	/**

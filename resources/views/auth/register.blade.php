@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -59,7 +63,11 @@
                 <input type="checkbox" value="remember-me"> Remember me
                 <span class="pull-right"> <a href="#"> Forgot Password?</a></span>
             </label>
+<<<<<<< HEAD
             <button class="btn btn-primary btn-lg btn-block" type="submit">Register</button>
+=======
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Daftar</button>
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
             <a href="{{ ('login') }}" class="btn btn-info btn-lg btn-block">Login</a>
         </div>
       </form>
@@ -69,6 +77,11 @@
 
   </body>
 </html>
+<<<<<<< HEAD
+=======
+=======
+@extends('app')
+>>>>>>> 67d2cb4d295418d3d6d78524763a4ae8dd600a6d
 
 @section('content')
 <div class="container-fluid">
@@ -133,3 +146,4 @@
 	</div>
 </div>
 @endsection
+>>>>>>> ab3433a797a38b9c9e65d975cd0f5a1452d8131e
